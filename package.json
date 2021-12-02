@@ -1,0 +1,19 @@
+{
+  "name": "best-apps",
+  "version": "1.0.0",
+  "description": "demo-page",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xakepa/best-apps.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/xakepa/best-apps/issues"
+  },
+  "homepage": "https://github.com/xakepa/best-apps#readme"
+}
