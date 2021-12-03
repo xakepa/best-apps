@@ -16,7 +16,7 @@ body {
 }
 
 .testimonials {
-  padding: 300px 0;
+  padding: 80px 0;
 }
 
 .title-ready {
@@ -184,7 +184,6 @@ body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
-
 .title-entry {
   color: rgb(82, 82, 82);
 }
@@ -214,6 +213,11 @@ i.fa-laptop,
   margin-right: 0.3em;
 }
 
+.fa-quote-right {
+  color: #4baaa9;
+  font-size: 46px;
+}
+
 .fa-mobile-alt {
   padding: 8px 18px;
 }
@@ -240,6 +244,8 @@ i.fa-laptop,
 p.blurred {
   color: whitesmoke;
   padding: 0;
+  letter-spacing: 1px;
+  opacity: 0.8;
 }
 
 .default-btn {
@@ -258,4 +264,29 @@ p.blurred {
 .article__actions button:hover {
   color: #000;
   background: whitesmoke;
+}
+
+.article__image {
+  width: 8%;
+}
+
+.article__image img {
+  border-radius: 50%;
+  border: 5px solid rgba(117, 117, 117, 0.932);
+  width: 100%;
+  height: 100%;
+}
+
+.testimonial-entry p,
+.article__entry p {
+  color: whitesmoke;
+  opacity: 0.8;
+  padding-left: 0;
+}
+
+p.testimonial-name {
+  color: #4baaa9;
+  opacity: 0.8;
+  font-size: 24px;
+  padding-left: 0;
 }
