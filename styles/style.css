@@ -231,13 +231,13 @@ i.fa-laptop,
   color: whitesmoke;
 }
 
-.article__entry p {
+.service-text .article_entry p {
   padding-left: 3.3em;
   color: #1c2023;
   line-height: 1.2;
 }
 
-.article__image {
+.phone__image {
   text-align: center;
 }
 
