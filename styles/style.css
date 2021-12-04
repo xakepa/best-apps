@@ -290,3 +290,11 @@ p.testimonial-name {
   font-size: 24px;
   padding-left: 0;
 }
+
+.testimonials-title {
+  padding-top: 100px;
+}
+
+.testimonials {
+  padding-top: 0;
+}
