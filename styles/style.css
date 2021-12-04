@@ -366,9 +366,39 @@ h4 {
 
 .article__price:hover {
   background: #4baaa9;
+  margin-top: -10px;
+  border-radius: 8px;
+  margin-bottom: 90px;
+}
+
+.article__price:hover span,
+.article__price:hover p,
+.article__price:hover h4 {
+  color: whitesmoke;
+}
+
+.article__price:hover button {
+  border-color: whitesmoke;
+  color: whitesmoke;
+}
+
+.article__price:hover .price {
+  border-bottom: 1px solid rgba(245, 245, 245, 0.315);
+  border-top: 1px solid rgba(245, 245, 245, 0.315);
+  width: 80%;
+  margin: auto;
+}
+
+.article__price:hover .price__separator {
+  border: 3px solid whitesmoke;
+  background: whitesmoke;
 }
 
 .btn-buy {
   color: #4baaa9;
   border-color: #4baaa9;
+}
+
+button.btn-buy:hover {
+  background: lime;
 }
