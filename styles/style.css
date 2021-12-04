@@ -23,9 +23,7 @@ body {
   color: whitesmoke;
 }
 
-#ready,
-#testimonials,
-.title_underline {
+div.title_underline {
   width: 150px;
   margin: auto;
   border: 1px solid rgb(121, 121, 121);
@@ -297,4 +295,13 @@ p.testimonial-name {
 
 .testimonials {
   padding-top: 0;
+}
+
+.price-table .title-ready h2,
+#price-table {
+  color: #000;
+}
+
+.heading .blurred {
+  color: #444541;
 }
