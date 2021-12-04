@@ -179,7 +179,6 @@ body {
   text-transform: uppercase;
   font-weight: 100;
   font-size: 50px;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .title-entry {
@@ -253,9 +252,10 @@ p.blurred {
   border-radius: 30px;
   padding: 5px 15px;
   font-size: 20px;
+  text-transform: uppercase;
 }
 
-.article__actions button:first-child {
+.projects button:first-child {
   margin-right: 20px;
 }
 
@@ -289,7 +289,8 @@ p.testimonial-name {
   padding-left: 0;
 }
 
-.testimonials-title {
+.testimonials-title,
+.packages-heading {
   padding-top: 100px;
 }
 
@@ -298,10 +299,76 @@ p.testimonial-name {
 }
 
 .price-table .title-ready h2,
-#price-table {
+#price-subtitle {
   color: #000;
 }
 
-.heading .blurred {
-  color: #444541;
+h2,
+h4 {
+  font-family: "Open Sans Condensed", sans-serif;
+}
+
+.price-table {
+  border: 1px solid gray;
+}
+
+.table-title {
+  margin-bottom: 30px;
+}
+
+.package-table h4 {
+  color: #242a35;
+}
+
+.price-entry {
+  margin-bottom: 45px;
+  color: #a5a6a1;
+}
+
+.price span {
+  color: #4baaa9;
+  font-weight: 600;
+  font-size: 30px;
+}
+
+.price,
+.price-entry {
+  text-align: center;
+}
+
+.price p {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.price p:nth-child(2) {
+  position: relative;
+  bottom: 8px;
+}
+
+.price__separator {
+  border: 3px solid #4baaa9;
+  width: 30px;
+  background: #4baaa9;
+  height: 3px;
+  justify-content: center;
+  margin: 25px 0 50px;
+}
+
+.article__price {
+  border-top: 1px solid rgba(172, 170, 170, 0.414);
+  border-bottom: 1px solid rgba(172, 170, 170, 0.414);
+  padding: 50px 0;
+  margin-bottom: 100px;
+}
+
+.article__price:hover {
+  background: #4baaa9;
+}
+
+.btn-buy {
+  color: #4baaa9;
+  border-color: #4baaa9;
 }
