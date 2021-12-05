@@ -105,7 +105,43 @@ body {
 }
 
 .main-search-button {
-  background: #4db7fe;
+  background: linear-gradient(
+    to bottom,
+    #4c675e 0%,
+    #98beb3 2%,
+    #a0dcd0 4%,
+    #98e4d8 6%,
+    #85dcd3 7%,
+    #8be4e0 9%,
+    #8adadb 11%,
+    #90d6d6 15%,
+    #8dd5d2 17%,
+    #7fd5ca 20%,
+    #7bd2ca 24%,
+    #7ccbc8 28%,
+    #7ececd 30%,
+    #73c5c3 41%,
+    #73c5c3 44%,
+    #6abcba 54%,
+    #63b2ac 61%,
+    #51aba2 70%,
+    #50aaa1 74%,
+    #4f9f9c 80%,
+    #559b9b 85%,
+    #519b9c 87%,
+    #479899 89%,
+    #489899 91%,
+    #569c9e 93%,
+    #558c8f 94%,
+    #3e6769 96%,
+    #325052 98%,
+    #3c5051 100%
+  );
+}
+
+.main-search-button:hover {
+  color: whitesmoke;
+  box-shadow: 0 0 20px #8be4e0, 0 0 40px #8be4e0, 0 0 80px #8be4e0;
 }
 
 .main-search-button {
@@ -163,6 +199,7 @@ body {
 .intro {
   color: whitesmoke;
   display: block;
+  margin-bottom: 80px;
 }
 
 .services {
