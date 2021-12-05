@@ -10,17 +10,6 @@ body {
   background-position: center;
 }
 
-/* Fix mobile nav */
-@media screen and (max-width: 480px) {
-  .navbar-nav {
-    align-items: flex-end;
-  }
-  a.logo {
-    position: static;
-    left: 0;
-  }
-}
-
 .logo {
   position: relative;
   left: 7em;
@@ -622,4 +611,19 @@ button.btn-buy:hover {
 
 .foot p span {
   color: whitesmoke;
+}
+
+/* Responsive fixes */
+@media screen and (max-width: 480px) {
+  .navbar-nav {
+    align-items: flex-end;
+  }
+  a.logo {
+    position: static;
+    left: 0;
+  }
+
+  div.article__price {
+    border-top: none;
+  }
 }
