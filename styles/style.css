@@ -8,7 +8,22 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  padding: 0 300px 100px 300px;
+}
+
+/* Fix mobile nav */
+@media screen and (max-width: 480px) {
+  .navbar-nav {
+    align-items: flex-end;
+  }
+  a.logo {
+    position: static;
+    left: 0;
+  }
+}
+
+.logo {
+  position: relative;
+  left: 7em;
 }
 
 .ready {
