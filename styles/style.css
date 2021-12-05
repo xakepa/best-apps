@@ -290,7 +290,7 @@ p.testimonial-name {
 }
 
 .testimonials-title,
-.packages-heading {
+.heading {
   padding-top: 100px;
 }
 
@@ -508,4 +508,31 @@ button.btn-buy:hover {
 
 .post-actions button:hover {
   border-bottom: 3px solid #4baaa9;
+}
+
+.our-team {
+  background: #9eaebb;
+}
+
+.person-image img {
+  width: 100%;
+  height: 100%;
+}
+
+.person-image {
+  height: 80%;
+}
+
+.name-occupation p {
+  margin: 0;
+}
+
+.name-occupation p:first-child {
+  color: #242a35;
+}
+
+.name-occupation p:last-child {
+  color: #758383;
+  text-transform: uppercase;
+  font-weight: 600;
 }
