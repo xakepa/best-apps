@@ -471,3 +471,41 @@ h4 {
 button.btn-buy:hover {
   background: transparent;
 }
+
+.post-image img {
+  width: 100%;
+  height: 100;
+  border-radius: 5px;
+}
+
+.date-name span:first-child {
+  color: #4baaa9;
+  border-right: 2px solid rgba(139, 139, 139, 0.788);
+  padding-right: 4px;
+}
+
+.date-name span:last-child {
+  color: #444541;
+  font-weight: 600;
+}
+
+.posts {
+  margin-bottom: 100px;
+}
+
+.post p {
+  line-height: 1.2;
+  color: #585b54;
+}
+
+.post-actions button {
+  text-transform: uppercase;
+  color: #4baaa9;
+  border: none;
+  padding: 0 0 5px;
+  background: none;
+}
+
+.post-actions button:hover {
+  border-bottom: 3px solid #4baaa9;
+}
