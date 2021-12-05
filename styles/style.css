@@ -537,6 +537,28 @@ button.btn-buy:hover {
   font-weight: 600;
 }
 
+.form-order {
+  margin-bottom: 110px;
+}
+
+.form-order input,
+.form-order textarea {
+  border: none;
+  border-radius: 0;
+  border-bottom: 3px solid #79819438;
+  font-size: 20px;
+}
+
+.form-submit {
+  background: #22b6b6;
+  color: #fafafa;
+  padding: 1px 15px;
+}
+
+.form-submit:hover {
+  border-color: #79819438;
+}
+
 .footer {
   background: #202743;
   color: #fafafa;
