@@ -579,7 +579,7 @@ button.btn-buy:hover {
 }
 
 .form-order {
-  margin-bottom: 110px;
+  padding-bottom: 110px;
 }
 
 .form-order input,
